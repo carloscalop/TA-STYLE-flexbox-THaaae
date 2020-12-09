@@ -113,9 +113,10 @@ body {
     }
 /* footer */
 .footer {
-    padding: 60px 0;
+    padding: 32px 0;
     background-color: #22396a;
     text-align: center;
+    color: #bcc1d2;
     
 }
 .footer a {
