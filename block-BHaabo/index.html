@@ -1,8 +1,57 @@
-<!-- 
-- Create a page using flexbox according to the layout shown below.
-
-![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-2.png)
-
-- Using CSS resets is necessary.
-- Use semantic tags and keep the nesting and indentation proper. 
--->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Dashboard</title>
+    <link rel="stylesheet" href="assets/style.css" />
+    <script src="https://kit.fontawesome.com/fb3717073f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container flex">
+        <a class="brand" href="#"> <img src="assets/icons/logo.svg" alt="Brand Logo" /></a>
+        <nav class="nav">
+            <a href="#"><a href="#"><img src="assets/icons/bell.svg">
+            <a href="#">Sarah Jone</a>
+            <a href="#"><a href="#"><img src="assets/icons/user.svg">
+        </nav>
+    </div>
+    </header>
+    <main>
+        
+            <article class="container flex">
+                <div class="col-1-2">
+                <nav class="nav-left">
+                    <a href="#"><img src="assets/icons/dashboard.svg">Dashboard</a>
+                    <a href="#"><img src="assets/icons/article.svg">Articles</a>
+                    <a href="#"><img src="assets/icons/analytics.svg">Analytics</a>
+                    <a href="#"><img src="assets/icons/inbox.svg">Inbox</a>
+                    <a href="#"><img src="assets/icons/setting.svg">Settings</a>
+                    <a class="Logout"href="#"><img src="assets/icons/log-out.svg"> Log Out</a>
+                </nav>
+                </div>
+                <section class="article-section">
+                <div class="col-1-2">
+                    <img class="article-img" src="assets/icons/image1.jpg" alt="Image 1" />
+                    <h1 class="article-heading">Why we are doing AltCampus?</h1>
+                    <p class="article-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quos sapiente doloribus temporibus consequuntur dolorum, fugit iusto maiores id mollitia eveniet voluptatibus repellendus dicta sint magni commodi sit dolorem eos!
+                    </p>
+                    <p class="article-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum sit provident laudantium obcaecati suscipit maxime possimus harum, incidunt, eius hic officia ipsum tenetur ab necessitatibus numquam. Nulla exercitationem sequi similique.</p>
+                    <a class="btn"href="#">Read More</a>
+                </div>
+                </article>
+            </section>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container flex">
+            <small class="copy">&copy; AltCampus</small>
+            <nav>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
