@@ -1,0 +1,167 @@
+<!-- 
+- Create a page using flexbox according to the layout shown below.
+
+![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-3.png)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper. 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prism | Assingment Level 3 | Flexbox</title>
+    <!-- Font Family-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght#00;400;500;700& display=swap" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/fb3717073f.js" crossorigin="anonymous"></script>
+     <!-- CSS -->
+    <link rel="stylesheet" href="assets/style.css" />
+    </head>
+<body>
+    <header class="header">
+        <div class="container flex">
+        <a class="brand" href="#">
+        <h1>Prism</h1>
+    </a>
+    <nav class="nav">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Generic</a>
+        <a href="#">Elements</a>
+    </nav>
+</div>
+    </header>
+    <main>
+        <!-- Hero -->
+        <section class="hero">
+            <div class="container flex">
+            <div class="col col-left">
+                <h2 class="hero-heading">Welcome to Prism, a free responsive site template by <strong>Templated</strong></h2>
+            </div>
+            <div class="col col-right">
+                <article>
+                    <p class="hero-text"> 
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla eaque totam corrupti nobis ipsum ipsam delectus asperiores.
+                    </p>
+                    <a class="btn btn-primary"href="#">Get Started</a>
+                </article>
+            </div>
+            </div>
+        </section>
+        <!-- Secondary Section -->
+        <section class="padding">
+           <div class="container flex">
+           <article class="col col-left">
+            <h3 class="heading">Magna feugiat adipiscing</h3>
+            <p class="text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit voluptatem exercitationem repellendus nulla veritatis vero illo, odio cum, corporis possimus illum obcaecati eveniet nesciunt voluptatibus porro, autem pariatur placeat optio!
+            </p>
+            <a class="btn btn-secondary" href="#">Learn More</a>
+           </article>
+           <div class="col col-right list">
+               <p><i class="fas fa-check"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+               <p><i class="fas fa-check"></i>Laboriosam ex amet quam odio expedita labore, magni omnis.</p>
+               <p><i class="fas fa-check"></i>Eligendi sed quasi illum, eum ut soluta tempore rerum.</p>
+               <p><i class="fas fa-check"></i>Magni omnis eligendi sed quasi illum, eum ut soluta.</p>
+               <p><i class="fas fa-check"></i>Illum, eum ut soluta tempore rerum consequuntur minima.</p>
+           </div>
+        </div> 
+        </section>
+        <!-- Blog -->
+        <section class="padding blog">
+            <div class="container">
+                <article class="flex">
+                    <div class="col-1-1">
+                        <img src="assets/pic01.jpg" alt="Pic 01">
+                    </div>
+                    <div class="col-1-3">
+                        <h4>Ipsum phrareta tempus</h4>
+                        <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus laborum culpa sit optio voluptate facere nulla ipsum ea praesentium reiciendis corporis tempora.</p>
+                        <a class="btn btn-secondary" href="#">Details</a>
+                    </div>
+                </article>
+                <article class="flex">
+                    <div class="col-1-1">
+                        <img src="assets/pic02.jpg" alt="Pic 02">
+                    </div>
+                    <div class="col-1-3">
+                        <h4>Magna consequat felis</h4>
+                        <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus laborum culpa sit optio voluptate facere nulla ipsum ea praesentium reiciendis corporis tempora.</p>
+                        <a class="btn btn-secondary" href="#">Details</a>
+                    </div>
+                </article>
+                <article class="flex">
+                    <div class="col-1-1">
+                        <img src="assets/pic03.jpg" alt="Pic 03">
+                    </div>
+                    <div class="col-1-3">
+                        <h4>Vitae placerat adipiscing</h4>
+                        <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus laborum culpa sit optio voluptate facere nulla ipsum ea praesentium reiciendis corporis tempora.</p>
+                        <a class="btn btn-secondary" href="#">Details</a>
+                    </div>
+                </article>
+                <div class="center">
+                    <a class="btn btn-secondary" href="#">Ipsum magna tempus</a>
+                </div>
+            </div>
+        </section>
+        <!-- Contact -->
+        <section class="padding contact">
+            <div class="container flex">
+            <div class="col col-left">
+                <div>
+                    <h3 class="heading">
+                        Orci Malesueada
+                    </h3>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate explicabo quasi vel assumenda, odio at sapiente placeat ad quia.</p>
+                </div>
+                <form action="">
+                    <div class="flex">
+                        
+                    </div>
+                    <input class="form-control" type="text" placeholder="Name"/>
+                    <input class="form-control" type="email" placeholder="Email"/>                                 
+                    <textarea class="form-control" name="" rows="6" placeholder="Message"></textarea>
+                    <button class="btn btn-secondary">Send Message</button>
+                </form>
+            
+            </div>
+            
+            
+                <div class="col col-right social">
+                    <a href="#"></a>
+                    <i class="fab fa-twitter"></i>
+                    <span>twitter.com/untitled.tld</span>
+                    <a href="#"></a>
+                    <i class="fab fa-facebook"></i>
+                    <span>facebook.com/untitled.tld</span>
+                    <a href="#"></a>
+                    <i class="fab fa-instagram"></i>
+                    <span>instagram.com/untitled.tld</span>
+                    <a href="#"></a>
+                    <i class="fas fa-envelope-square"></i>
+                    <span>information@untitled.com</span>
+                    <a href="#"></a>
+                    <address>
+                        <i class="fas fa-home"></i>
+                    <span>1234 Somewhere Road Suite 9823 <br>Nashville, TN 00000-00000</span>
+                </address>
+                
+            </div>
+                
+            
+            </div>
+            </div>
+        </div>
+        </section>
+        </main>
+        <footer class="footer padding">
+         <div class="container">
+             <small>&copy; Untitled. All Rights Reserved. Images: Unsplash. Design: TEMPLATED</small>
+         </div>   
+        </footer>
+</body>
+</html>
